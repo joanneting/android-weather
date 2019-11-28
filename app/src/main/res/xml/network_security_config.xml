@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true"><!--false 只能用https連線-->
+        <domain includeSubdomains="true">120.97.27.41</domain><!--false  要完全一樣，不能有port 號-->
+    </domain-config>
+</network-security-config>
